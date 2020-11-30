@@ -1,10 +1,8 @@
 <html> 
    <script> 
-         //La fonction intro() affiche un message dans une boîte de dialogue
-         function alert1(t){ 
-            alert(t);
-         } 
-		 //fonction qui évalue le chiffre et renvoie la sortie
+        //Commande qui crée une alerte dès le début
+         alert("Ma première calculatrice en HTLM et en JavaScript");
+		 //fonction qui modifie la couleur d'un bouton lorsqu'on le survol
          
         function couleur_bouton1(x) 
         {
@@ -15,7 +13,7 @@
         {
           x.style.background = "#FFFFFF";
         }         
-         
+         //La fonction eval() permet d'évaluer du code JavaScript représenté sous forme d'une chaîne de caractères.
          function calculer() 
          { 
              let a = document.getElementById("output").value 
@@ -33,9 +31,9 @@
              document.getElementById("output").value = "" 
          } 
 	  //fonction qui affiche un message si on utilise une touche clavier
-        function evenement_clavier() 
+		function evenement_clavier() 
         {
-          alert("Tu as appuyer sur une touche clavier ");
+          alert("Tu as appuyer sur une touche clavier");
         }
       </script>
 	  <style>
